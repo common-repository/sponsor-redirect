@@ -1,0 +1,74 @@
+
+.srp-masonry {
+    
+}
+.row {
+    box-sizing: border-box;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.srp-masonry .col-sm-6,
+.srp-masonry .col-sm-4,
+.srp-masonry .col-sm-3 {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 15px;
+}
+.srp-masonry .col-sm-6 {
+    width: 50%;
+}
+.srp-masonry .col-sm-4 {
+    width: 33.3333%;
+}
+.srp-masonry .col-sm-3 {
+    width: 25%;
+}
+.srp-masonry .inner-wrap {
+    border: 1px solid #eee;
+    margin-bottom: 25px;
+}
+.srp-masonry .blog-media {
+    overflow: hidden;
+    position: relative;
+}
+.srp-masonry .blog-media a {
+
+}
+.srp-masonry .blog-media a img {
+    display: block;
+    margin: 0 auto;
+}
+.srp-masonry .content-inner {
+    font-size: 13px;
+    padding: 15px;
+    text-align: justify;
+}
+.srp-masonry .content-inner .sponsor-title {
+
+}
+.srp-masonry .content-inner .sponsor-title h5 {
+    font-size: 13px;
+}
+.srp-masonry .content-inner p {
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .srp-masonry .col-sm-4,
+    .srp-masonry .col-sm-3 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .srp-masonry .col-sm-6,
+    .srp-masonry .col-sm-4,
+    .srp-masonry .col-sm-3 {
+        width: 100%;
+    }
+}
+
+
+
